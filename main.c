@@ -10,7 +10,7 @@ typedef struct stack Stack;
 Stack numbers;
 
 void create_stack(){
-	number.n = 0;
+	numbers.n = 0;
 }
 
 void push(int nn){
@@ -20,7 +20,7 @@ void push(int nn){
 		exit(1);
 	}
 	numbers.number[numbers.n] == nn;
-	numbers.n++
+	numbers.n++;
 }
 
 int pop(){
@@ -55,7 +55,7 @@ main(){
 					for (x = 0; x < 10; x++){
 						printf("Number added: %d\n", value);
 					}
-				}break
+				}break;
 			case 2:
 				for(x = 0; x < 10; x++){
 					printf("Number deleted: %d\n", pop());
